@@ -652,7 +652,7 @@ a {
     font-family: "helvetica";
     font-weight: 400;
     /* correction accessibilité : contrastes textes #575757*/
-    color: white!important;
+    color: black!important;
 }
 
 .container {
@@ -776,7 +776,7 @@ h4 {
 }
 
 .tc-white {
-    color: white!important;
+    color: red!important;
 }
 /* correction accessibilité : contrastes background #F3976C*/
 .btn-atomic-tangerine {
