@@ -777,12 +777,12 @@ h4 {
 .tc-white {
     color: white!important;
 }
-
+/* correction accessibilité : contrastes background #F3976C*/
 .btn-atomic-tangerine {
-    background: #F3976C;
+    background: #B65E41;
     color: #FFFFFF!important;
 }
-
+/* correction accessibilité : contrastes background #F3976C*/
 .btn-atomic-tangerine:hover {
     background: #c27956!important;
     color: #FFFFFF!important;
