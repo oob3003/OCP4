@@ -101,15 +101,14 @@
 								<form id="form_1" novalidate success-msg="Your message has been sent."
 									fail-msg="Sorry it seems that our mail server is not responding, Sorry for the inconvenience!">
 									<div class="form-group">
-										<!-- correction accessibilité : label -->
+										<!-- correction accessibilité : label ARIA-->
 										<label for="Nom">Nom</label>
-										<input name="Nom" data-displayname="Nom"  class="form-control" required id="Nom" aria-required="true" type="text">
+										<input name="Nom" data-displayname="Nom" class="form-control" required id="Nom"
+											aria-required="true" type="text">
 									</div>
 									<div class="form-group">
-										<label>
-											Adresse email
-										</label>
-										<input id="email" class="form-control" type="email" required />
+										<label for="Adresse email">Adresse email</label>
+										<input type="text" aria-labelledby="Adresse email" class="form-control" type="email" required>
 									</div>
 									<div class="form-group">
 										<label>
