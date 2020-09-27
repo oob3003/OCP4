@@ -774,9 +774,9 @@ h4 {
 .bgc-atomic-tangerine {
     background-color: #B65E41;
 }
-
+/* correction accessibilité : contrastes textes */
 .tc-white {
-    color: red!important;
+    color: white!important;
 }
 /* correction accessibilité : contrastes background #F3976C*/
 .btn-atomic-tangerine {
