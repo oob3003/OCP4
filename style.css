@@ -651,7 +651,8 @@ label,
 a {
     font-family: "helvetica";
     font-weight: 400;
-    color: #575757!important;
+    /* correction accessibilité : contrastes textes #575757*/
+    color: white!important;
 }
 
 .container {
