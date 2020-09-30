@@ -690,8 +690,8 @@ p {
     font-size: 20px;
     font-family: "Open Sans";
 }
-/* correction accessibilité : :focus sur bouton contact */
-.cta-hero:focus {
+
+.cta-hero {
     margin-top: 22px;
     color: #FFFFFF!important;
     text-transform: uppercase;
@@ -779,7 +779,8 @@ h4 {
     color: white!important;
 }
 /* correction accessibilité : contrastes background #F3976C*/
-.btn-atomic-tangerine {
+/* correction accessibilité : :focus sur bouton contact */
+.btn-atomic-tangerine:focus {
     background: #B65E41;
     color: #FFFFFF!important;
 }
