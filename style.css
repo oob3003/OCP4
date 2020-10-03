@@ -331,9 +331,9 @@ a:hover {
 .navbar-nav .open .dropdown-menu > li > a {
     text-align: inherit;
 }
-
+/* correction accesiblité: ajout -visible au focus */
 .nav > li a:hover,
-.nav > li a:focus {
+.nav > li a:focus-visible {
     background: transparent;
 }
 
@@ -818,8 +818,8 @@ h4 {
 .bg-lines-h2-bg {
     background-image: url("img/lines-h2-bg.png");
 }
-
-.bg-banniere {
+/* correction accessibilté: ajout :focus-visible */
+.bg-banniere:focus-visible {
     background-image: url("img/la-chouette-agence-banniere.jpg");
 }
 
