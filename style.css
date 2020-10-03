@@ -819,7 +819,7 @@ h4 {
     background-image: url("img/lines-h2-bg.png");
 }
 /* correction accessibilté: ajout :focus-visible */
-.bg-banniere:focus-visible {
+.bg-banniere {
     background-image: url("img/la-chouette-agence-banniere.jpg");
 }
 
