@@ -690,7 +690,7 @@ p {
     font-size: 20px;
     font-family: "Open Sans";
 }
-
+/* ajout background-color */
 .cta-hero {
     margin-top: 22px;
     color: #FFFFFF!important;
@@ -698,6 +698,7 @@ p {
     padding: 12px 28px 12px 28px;
     font-size: 16px;
     font-weight: 700;
+    background-color: #B65E41
 }
 
 .social {
@@ -1000,8 +1001,9 @@ h4 {
     .a-block {
         padding: 0 10px;
     }
+    /* chg display:none en flex */
     .btn-dwn {
-        display: none;
+        display: flex;
     }
     .voffset {
         margin-top: 5px;
