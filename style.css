@@ -452,10 +452,10 @@ nav .caret {
 .btn.pull-right {
     margin: 0 0 5px 5px;
 }
-
+/* retrait :focus */
 .btn-d,
 .btn-d:hover,
-.btn-d:focus {
+.btn-d {
     color: #FFF;
     background: rgba(0, 0, 0, .3);
 }
@@ -818,7 +818,7 @@ h4 {
 .bg-lines-h2-bg {
     background-image: url("img/lines-h2-bg.png");
 }
-/* correction accessibilté: ajout :focus-visible */
+
 .bg-banniere {
     background-image: url("img/la-chouette-agence-banniere.jpg");
 }
