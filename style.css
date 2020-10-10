@@ -139,7 +139,7 @@ a:hover {
 .d-bloc .a-btn:hover,
 .d-bloc .navbar a:hover,
 .d-bloc .navbar-brand:hover,
-.d-bloc a:hover,:focus .icon-sm,
+.d-bloc a:hover .icon-sm,
 .d-bloc a:hover .icon-md,
 .d-bloc a:hover .icon-lg,
 .d-bloc a:hover .icon-xl,
@@ -791,8 +791,8 @@ h4 {
     background: #85736C!important;
     color: #FFFFFF!important;
 }
-
-.ltc-white {
+/* accessibilité ajout :focus*/
+.ltc-white:focus {
     color: #FFFFFF!important;
 }
 
