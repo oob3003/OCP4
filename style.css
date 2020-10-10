@@ -536,8 +536,8 @@ a[data-lightbox] {
     display: block;
     text-align: center;
 }
-
-a[data-lightbox]:hover::before {
+/* accessibilité ajout :focus l.540 */
+a[data-lightbox]:hover,:focus::before {
     content: "+";
     font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial;
     font-size: 32px;
