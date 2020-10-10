@@ -135,14 +135,14 @@ a:hover {
 .d-bloc p a {
     color: rgba(255, 255, 255, .6);
 }
-/* test ajout :focus l.142,3,4,5 */
+
 .d-bloc .a-btn:hover,
 .d-bloc .navbar a:hover,
 .d-bloc .navbar-brand:hover,
-.d-bloc a:hover,:focus .icon-sm,
-.d-bloc a:hover,:focus .icon-md,
-.d-bloc a:hover,:focus .icon-lg,
-.d-bloc a:hover,:focus .icon-xl,
+.d-bloc a:hover .icon-sm,
+.d-bloc a:hover .icon-md,
+.d-bloc a:hover .icon-lg,
+.d-bloc a:hover .icon-xl,
 .d-bloc h1 a:hover,
 .d-bloc h2 a:hover,
 .d-bloc h3 a:hover,
@@ -150,7 +150,7 @@ a:hover {
 .d-bloc h5 a:hover,
 .d-bloc h6 a:hover,
 .d-bloc p a:hover {
-    color: rgba(255, 255, 255, 1);
+    color:red; /* rgba(255, 255, 255, 1);*/
 }
 
 .d-bloc .navbar-toggle .icon-bar {
@@ -271,7 +271,7 @@ a:hover {
 .voffset-lg {
     margin-top: 80px;
 }
-/* ajout :focus l.275*/
+
 .row-no-gutters:focus {
     margin-right: 0;
     margin-left: 0;
