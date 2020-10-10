@@ -135,12 +135,12 @@ a:hover {
 .d-bloc p a {
     color: rgba(255, 255, 255, .6);
 }
-/* test ajout :focus l.142 */
+/* test ajout :focus l.143 */
 .d-bloc .a-btn:hover,
 .d-bloc .navbar a:hover,
 .d-bloc .navbar-brand:hover,
 .d-bloc a:hover .icon-sm,
-.d-bloc a:hover .icon-md,
+.d-bloc a:hover,:focus .icon-md,
 .d-bloc a:hover .icon-lg,
 .d-bloc a:hover .icon-xl,
 .d-bloc h1 a:hover,
@@ -701,9 +701,8 @@ p {
     font-weight: 700;
     background-color: #B65E41
 }
-/* ajout :focus l.705 + color:white l.706*/
-.social:focus {
-    color: white
+
+.social {
     max-width: 400px;
     margin: auto auto auto auto;
 }
