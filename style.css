@@ -741,8 +741,8 @@ h4 {
 .white {
     color: #FFFFFF!important;
 }
-
-.portfolio-thumb {
+/* accessibilité ajout :focus-visible l.745*/
+.portfolio-thumb:focus-visible {
     margin-bottom: 24px;
 }
 
