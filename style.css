@@ -691,8 +691,8 @@ p {
     font-size: 20px;
     font-family: "Open Sans";
 }
-/* ajout background-color */
-.cta-hero {
+/* ajout background-color + ajout -focus*/
+.cta-hero:focus {
     margin-top: 22px;
     color: #FFFFFF!important;
     text-transform: uppercase;
@@ -804,7 +804,7 @@ h4 {
     color: #B65E41!important;
 }
 /* correction accessibilité : contrastes background #c27956*/
-.ltc-atomic-tangerine:hover {
+.ltc-atomic-tangerine:hover,:focus {
     color: #85736C!important;
 }
 
