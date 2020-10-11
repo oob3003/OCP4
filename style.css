@@ -276,7 +276,7 @@ a:hover {
     margin-right: 0;
     margin-left: 0;
 }
-/*test ajout :focus l.281*/
+
 .row.row-no-gutters > [class^="col-"],
 .row.row-no-gutters > [class*=" col-"] {
     padding-right: 0;
@@ -373,7 +373,7 @@ a:hover {
     }
     .nav > li .dropdown-menu a,
     .nav > li .dropdown-menu a:hover {
-        color: #484848;
+        color: #0cedf5; /*éclaircissement*/
     }
     .nav-invert .site-navigation {
         left: 0;
