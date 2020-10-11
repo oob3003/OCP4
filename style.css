@@ -150,7 +150,7 @@ a:hover {
 .d-bloc h5 a:hover,
 .d-bloc h6 a:hover,
 .d-bloc p a:hover {
-    color:red; /* rgba(255, 255, 255, 1);*/
+    color: rgba(255, 255, 255, 1);
 }
 
 .d-bloc .navbar-toggle .icon-bar {
@@ -276,9 +276,9 @@ a:hover {
     margin-right: 0;
     margin-left: 0;
 }
-
+/*test ajout :focus l.281*/
 .row.row-no-gutters > [class^="col-"],
-.row.row-no-gutters > [class*=" col-"] {
+.row.row-no-gutters > [class*=" col-"]:focus {
     padding-right: 0;
     padding-left: 0;
 }
