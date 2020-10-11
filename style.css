@@ -557,7 +557,7 @@ a[data-lightbox]:hover::before {
 }
 /*ajout ,:focus l.559*/
 a[data-lightbox]:hover,:focus img {
-    opacity: 0.6;
+    opacity: 0.5;/*vs 0.6*/
     -webkit-animation-fill-mode: none;
     animation-fill-mode: none;
 }

@@ -53,9 +53,9 @@ template {
 a {
     background-color: transparent
 }
-
+/*ajout ,:focus-visible l.58*/
 a:active,
-a:hover {
+a:hover,:focus-visible {
     outline: 0
 }
 
@@ -3688,8 +3688,8 @@ textarea.input-lg {
 
 .btn.focus,
 .btn:focus,
-.btn:hover { /* color: #333; */
-    color:rgb(206, 16, 16);
+.btn:hover {
+    color: #333;
     text-decoration: none
 }
 
