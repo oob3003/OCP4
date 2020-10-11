@@ -278,7 +278,7 @@ a:hover {
 }
 /*test ajout :focus l.281*/
 .row.row-no-gutters > [class^="col-"],
-.row.row-no-gutters > [class*=" col-"]:focus {
+.row.row-no-gutters > [class*=" col-"] {
     padding-right: 0;
     padding-left: 0;
 }
@@ -743,7 +743,7 @@ h4 {
     color: #FFFFFF!important;
 }
 /* accessibilité ajout :focus l.745*/
-.portfolio-thumb:focus {
+.portfolio-thumb {
     margin-bottom: 24px;
 }
 
@@ -794,9 +794,9 @@ h4 {
 }
 
 .ltc-white {
-    color: #FFFFFF!important;
+    color: #0bf8d7!important;
 }
-/* accessibilité ajout :focus*/
+
 .ltc-white:hover {
     color: #cccccc!important;
 }
