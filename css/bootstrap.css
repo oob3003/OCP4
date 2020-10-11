@@ -13,8 +13,8 @@ html {
 }
 /* ajout max-width: 1200px*/
 body {
-    margin: 0
-    max-width: 1200px
+    margin: 0;
+    max-width: 1200px;
 }
 
 article,
