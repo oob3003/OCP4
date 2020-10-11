@@ -53,9 +53,9 @@ template {
 a {
     background-color: transparent
 }
-/*ajout ,:focus-visible l.58*/
+
 a:active,
-a:hover,:focus-visible {
+a:hover {
     outline: 0
 }
 

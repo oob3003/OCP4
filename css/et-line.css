@@ -5,7 +5,7 @@
     font-weight: 400;
     font-style: normal
 }
-
+/*ajout ,:focus l.108*/
 .et-icon-adjustments,
 .et-icon-alarmclock,
 .et-icon-anchor,
@@ -105,7 +105,7 @@
 .et-icon-upload,
 .et-icon-video,
 .et-icon-wallet,
-.et-icon-wine {
+.et-icon-wine { 
     font-family: et-line;
     speak: none;
     font-style: normal;
