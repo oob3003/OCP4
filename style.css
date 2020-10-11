@@ -332,7 +332,7 @@ a:hover {
 .navbar-nav .open .dropdown-menu > li > a {
     text-align: inherit;
 }
-/* correction accesiblité: ajout -visible au focus */
+/* correction accesiblité: ajout -visible au focus dans le header*/
 .nav > li a:hover,
 .nav > li a:focus-visible {
     background: transparent;
@@ -474,7 +474,7 @@ button {
     border: 1px solid rgba(0, 0, 0, .08);
     border-bottom-color: rgba(0, 0, 0, .1);
     text-shadow: 0 1px 0 rgba(0, 0, 1, .1);
-    box-shadow: 0 1px 3px rgba(0, 0, 1, .25), inset 0 1px 0 0 red/*rgba(255, 255, 255, .15)*/;
+    box-shadow: 0 1px 3px rgba(0, 0, 1, .25), inset 0 1px 0 0 rgba(255, 255, 255, .15);
 }
 
 .icon-md {
@@ -537,7 +537,7 @@ a[data-lightbox] {
     display: block;
     text-align: center;
 }
-/* accessibilité ajout :focus l.540 */
+/* accessibilité ajout :focus l.540 pour la visualisation des liens et transparance l.549*/
 a[data-lightbox]:hover,:focus::before {
     content: "+";
     font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial;
@@ -546,7 +546,7 @@ a[data-lightbox]:hover,:focus::before {
     height: 50px;
     margin-left: -25px;
     border-radius: 50%;
-    background: rgba(0, 0, 0, .6);
+    background: rgba(0, 0, 0, .5);/*vs (0,0,0,.6)*/
     color: #FFF;
     font-weight: 100;
     z-index: 1;
@@ -742,7 +742,7 @@ h4 {
 .white {
     color: #FFFFFF!important;
 }
-/* accessibilité ajout :focus l.745*/
+
 .portfolio-thumb {
     margin-bottom: 24px;
 }
@@ -789,7 +789,7 @@ h4 {
 }
 /* correction accessibilité : contrastes background #c27956*/
 .btn-atomic-tangerine:hover {
-    background: #85736C!important;
+    background: #53392f!important;
     color: #FFFFFF!important;
 }
 
