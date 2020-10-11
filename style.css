@@ -797,7 +797,7 @@ h4 {
     color: #0bf8d7!important;
 }
 
-.ltc-white:hover {
+.ltc-white:hover,:focus { /*ajout :focus*/
     color: #cccccc!important;
 }
 /* correction accessibilité : contrastes background #F3976C*/
