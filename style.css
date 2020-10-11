@@ -793,7 +793,7 @@ h4 {
 }
 
 .ltc-white {
-    color: violet; /* #FFFFFF!important*/
+    color: #FFFFFF!important;
 }
 /* accessibilité ajout :focus*/
 .ltc-white:hover,:focus {
