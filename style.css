@@ -798,7 +798,7 @@ h4 {
 }
 /* accessibilité ajout :focus*/
 .ltc-white:hover {
-    color: red; /*#cccccc!important;*/
+    color: #cccccc!important;
 }
 /* correction accessibilité : contrastes background #F3976C*/
 .ltc-atomic-tangerine {
