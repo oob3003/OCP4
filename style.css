@@ -531,14 +531,14 @@ button {
     font-size: 14px;
     opacity: 1;
 }
-
-a[data-lightbox] {
+/*ajout :focus l.535*/
+a[data-lightbox]:focus {
     position: relative;
     display: block;
     text-align: center;
 }
 /* accessibilité ajout :focus l.540 pour la visualisation des liens et transparance l.549*/
-a[data-lightbox]:focus,:hover::before {
+a[data-lightbox]:hover::before {
     content: "+";
     font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial;
     font-size: 32px;
