@@ -1,4 +1,5 @@
 body {
+    max-width: 1200px; /* ajout max-width: 1200px*/
     margin: 0;
     padding: 0;
     background: #FFF;
@@ -470,6 +471,7 @@ button {
 }
 
 .btn-clean {
+    background-color: #B65E41;
     border: 1px solid rgba(0, 0, 0, .08);
     border-bottom-color: rgba(0, 0, 0, .1);
     text-shadow: 0 1px 0 rgba(0, 0, 1, .1);
