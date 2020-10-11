@@ -531,8 +531,8 @@ button {
     font-size: 14px;
     opacity: 1;
 }
-/*ajout :focus l.535*/
-a[data-lightbox]:focus {
+
+a[data-lightbox] {
     position: relative;
     display: block;
     text-align: center;
@@ -555,8 +555,8 @@ a[data-lightbox]:hover::before {
     transform: translateY(-50%);
     -webkit-transform: translateY(-50%);
 }
-
-a[data-lightbox]:hover img {
+/*ajout ,:focus l.559*/
+a[data-lightbox]:hover,:focus img {
     opacity: 0.6;
     -webkit-animation-fill-mode: none;
     animation-fill-mode: none;
