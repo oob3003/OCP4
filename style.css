@@ -806,9 +806,9 @@ h4 {
 }
 /* correction accessibilité : contrastes background #c27956*/
 .ltc-atomic-tangerine:hover,:focus {
-    color: yellow!important;
+    color: rgb(0, 255, 21)!important;
 }
-    
+
 .icon-dark-slate-blue {
     color: #364577!important;
     border-color: #364577!important;
