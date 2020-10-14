@@ -830,7 +830,7 @@ h4 {
     background-image: url("img/image-de-presentation.jpg");
 }
 /*modif rezo soc*/
-.fa-twitter:before:focus {
+span.fa.icon-md:focus {
     color: greenyellow;
 }
 @media (max-width: 1024px) {
