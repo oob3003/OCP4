@@ -335,7 +335,7 @@ a:hover {
 /* correction accesiblité: ajout -visible au focus dans le header et bckgrnd grey au lieu de transparent*/
 .nav > li a:hover,
 .nav > li a:focus-visible {
-    background: rgba(128, 128, 128, 0.493);
+    background: rgba(138, 55, 1, 0.24);
 }
 
 .navbar-toggle {
@@ -530,7 +530,7 @@ button {
 .showScrollTop {
     font-size: 14px;
     opacity: 1;
-    background-color:rgba(4, 243, 252, 0.795);
+    background-color:rgba(5, 161, 167, 0.795);
 }
 
 a[data-lightbox] {
@@ -800,7 +800,7 @@ h4 {
 }
 
 .ltc-white:hover,:focus { /*ajout :focus permettant de visualiser les liens par tabulation #cccccc */
-    color: #fcf942!important;
+    color: #03d30d!important;
 }
 
 /* correction accessibilité : contrastes background #F3976C*/
