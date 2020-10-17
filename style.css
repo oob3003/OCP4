@@ -332,10 +332,10 @@ a:hover {
 .navbar-nav .open .dropdown-menu > li > a {
     text-align: inherit;
 }
-/* correction accesiblité: ajout -visible au focus dans le header*/
+/* correction accesiblité: ajout -visible au focus dans le header et bckgrnd grey au lieu de transparent*/
 .nav > li a:hover,
 .nav > li a:focus-visible {
-    background: transparent;
+    background: rgba(128, 128, 128, 0.493);
 }
 
 .navbar-toggle {
@@ -702,10 +702,11 @@ p {
     font-weight: 700;
     background-color: #B65E41
 }
-
-.social {
+/*ajout ,:focus et bckgrnd color pour visualiser les liens réseaux sociaux via tabulation*/
+.social:focus {
     max-width: 400px;
     margin: auto auto auto auto;
+    background-color: rgba(4, 243, 252, 0.795);
 }
 
 h2 {
@@ -797,16 +798,17 @@ h4 {
     color: #FFFFFF!important;
 }
 
-.ltc-white:hover,:focus { /*ajout :focus*/
-    color: #cccccc!important;
+.ltc-white:hover,:focus { /*ajout :focus permettant de visualiser les liens par tabulation #cccccc */
+    color: #fcf942!important;
 }
+
 /* correction accessibilité : contrastes background #F3976C*/
 .ltc-atomic-tangerine {
     color: #B65E41!important;
 }
 /* correction accessibilité : contrastes background #c27956*/
-.ltc-atomic-tangerine:hover,:focus {
-    color: rgb(0, 255, 21)!important;
+.ltc-atomic-tangerine:hover {
+    color: #c27956!important;
 }
 
 .icon-dark-slate-blue {
@@ -829,10 +831,7 @@ h4 {
 .bg-presentation {
     background-image: url("img/image-de-presentation.jpg");
 }
-/*modif rezo soc*/
-span.fa.icon-md:focus {
-    color: greenyellow;
-}
+
 @media (max-width: 1024px) {
     .bloc {
         padding-left: 20px;
