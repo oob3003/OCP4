@@ -511,7 +511,7 @@ button {
     border-color: rgba(0, 0, 0, .1);
     box-shadow: none;
 }
-/*ajout :focus*/
+
 .scrollToTop {
     width: 40px;
     height: 40px;
@@ -530,7 +530,7 @@ button {
 .showScrollTop {
     font-size: 14px;
     opacity: 1;
-    background-color:rgba(5, 161, 167, 0.795);
+    background-color:#cc3c3c;
 }
 
 a[data-lightbox] {
@@ -800,7 +800,7 @@ h4 {
 }
 
 .ltc-white:hover,:focus { /*ajout :focus permettant de visualiser les liens par tabulation #cccccc */
-    color: #03d30d!important;
+    color: rgb(38, 179, 3)!important;
 }
 
 /* correction accessibilité : contrastes background #F3976C*/
