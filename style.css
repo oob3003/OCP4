@@ -511,7 +511,7 @@ button {
     border-color: rgba(0, 0, 0, .1);
     box-shadow: none;
 }
-
+/*ajout :focus*/
 .scrollToTop {
     width: 40px;
     height: 40px;
@@ -526,10 +526,11 @@ button {
 .scrollToTop span {
     margin-top: 6px;
 }
-
+/*ajout bckgrndcolor*/
 .showScrollTop {
     font-size: 14px;
     opacity: 1;
+    background-color:rgba(4, 243, 252, 0.795);
 }
 
 a[data-lightbox] {
@@ -555,7 +556,7 @@ a[data-lightbox]:hover::before {
     transform: translateY(-50%);
     -webkit-transform: translateY(-50%);
 }
-/*ajout ,:focus l.559*/
+/*ajout ,:focus*/
 a[data-lightbox]:hover,:focus img {
     opacity: 0.4;/*vs 0.6*/
     -webkit-animation-fill-mode: none;
