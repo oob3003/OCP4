@@ -10,7 +10,7 @@ body {
 a,
 button {
     transition: all .3s ease-in-out;
-    outline: none!important;
+    /*retrait ->  outline: none!important;*/
 }
 /*modif underline vs none*/
 a:hover {
@@ -800,8 +800,8 @@ h4 {
 }
 
 .ltc-white:hover,:focus { /*ajout :focus permettant de visualiser les liens par tabulation #cccccc et backgrndcolor */
-    color: rgb(38, 179, 3)!important;
-    background-color: yellow;
+    color: #004447!important;
+    background-color: white;
 }
 
 /* correction accessibilité : contrastes background #F3976C*/
