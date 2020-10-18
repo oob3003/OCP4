@@ -12,9 +12,9 @@ button {
     transition: all .3s ease-in-out;
     outline: none!important;
 }
-
+/*modif underline vs none*/
 a:hover {
-    text-decoration: none;
+    text-decoration: underline;
     cursor: pointer;
 }
 
@@ -530,7 +530,7 @@ button {
 .showScrollTop {
     font-size: 14px;
     opacity: 1;
-    background-color:#cc3c3c;
+    background-color:whitesmoke;
 }
 
 a[data-lightbox] {
@@ -704,7 +704,7 @@ p {
     background-color: #B65E41
 }
 /*ajout ,:focus et bckgrnd color pour visualiser les liens réseaux sociaux via tabulation*/
-.social:focus {
+.social:focus{
     max-width: 400px;
     margin: auto auto auto auto;
     background-color: rgba(4, 243, 252, 0.795);
