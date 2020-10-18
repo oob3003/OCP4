@@ -799,8 +799,9 @@ h4 {
     color: #FFFFFF!important;
 }
 
-.ltc-white:hover,:focus { /*ajout :focus permettant de visualiser les liens par tabulation #cccccc */
+.ltc-white:hover,:focus { /*ajout :focus permettant de visualiser les liens par tabulation #cccccc et backgrndcolor */
     color: rgb(38, 179, 3)!important;
+    background-color: yellow;
 }
 
 /* correction accessibilité : contrastes background #F3976C*/
