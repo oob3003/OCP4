@@ -332,9 +332,9 @@ a:hover {
 .navbar-nav .open .dropdown-menu > li > a {
     text-align: inherit;
 }
-/* correction accesiblité: ajout -visible au focus dans le header et bckgrnd grey au lieu de transparent*/
+/* correction accesiblité: dans le header  bckgrnd rgba au lieu de transparent*/
 .nav > li a:hover,
-.nav > li a:focus-visible {
+.nav > li a:focus {
     background: rgba(138, 55, 1, 0.24);
 }
 
@@ -779,7 +779,7 @@ h4 {
 .bgc-atomic-tangerine {
     background-color: #B65E41;
 }
-/* correction accessibilité : contrastes textes */
+/* correction accessibilité : contrastes textes page 2 pour rendre le texte visible */
 .tc-white {
     color: white!important;
 }
