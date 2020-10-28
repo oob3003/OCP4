@@ -881,9 +881,9 @@ h4 {
         overflow-x: hidden;
         position: relative;
     }
-    .bloc {
-        padding-left: constant(safe-area-inset-left);
-        padding-right: constant(safe-area-inset-right);
+    .bloc { /*correction W3C : padding-left: constant(safe-area-inset-left);*/
+        padding-left: 2%;
+        padding-right: 2%;
     }
     .bloc-group,
     .bloc-group .bloc {
